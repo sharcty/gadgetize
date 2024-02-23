@@ -9,6 +9,9 @@ import { ItemCardComponent } from './item-card/item-card.component';
 import { ItemsViewComponent } from './items-view/items-view.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { ItemModalComponent } from './item-modal/item-modal.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ItemModalComponent } from './item-modal/item-modal.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatToolbarModule, 
+    MatButtonModule, 
+    MatIconModule
   ],
   providers: [
     provideAnimationsAsync()

@@ -1,0 +1,445 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Samsung 55-Inch 4K Ultra HD Smart QLED TV",
+        "type": "TVs",
+        "brand": "Samsung",
+        "price": 1299.99,
+        "rating": 4.6,
+        "image": "https://example.com/samsung-55-inch-tv.jpg",
+        "description": "Experience immersive visuals with the Samsung 55-inch 4K Ultra HD Smart QLED TV. Enjoy vibrant colors and stunning clarity for all your favorite movies, shows, and games.",
+        "reviews": [
+          {
+            "user": "TVEnthusiast",
+            "rating": 5,
+            "comment": "Best TV I've ever owned! Amazing picture quality."
+          },
+          {
+            "user": "MovieBuff24",
+            "rating": 4,
+            "comment": "Great value for the price. Highly recommend!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Apple MacBook Pro 16-inch",
+        "type": "Appliances",
+        "brand": "Apple",
+        "price": 2399.99,
+        "rating": 4.9,
+        "image": "https://example.com/macbook-pro-16-inch.jpg",
+        "description": "The MacBook Pro 16-inch delivers unparalleled performance with its powerful M1 Pro chip, stunning Retina display, and immersive audio system.",
+        "reviews": [
+          {
+            "user": "MacFanatic123",
+            "rating": 5,
+            "comment": "Absolutely love my new MacBook Pro!"
+          },
+          {
+            "user": "DesignGuru",
+            "rating": 5,
+            "comment": "Perfect for graphic design work!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "iPhone 13 Pro",
+        "type": "Phones",
+        "brand": "Apple",
+        "price": 999.99,
+        "rating": 4.8,
+        "image": "https://example.com/iphone-13-pro.jpg",
+        "description": "The iPhone 13 Pro features a stunning Super Retina XDR display, advanced camera system, and all-day battery life. Experience the power of Apple's latest smartphone.",
+        "reviews": [
+          {
+            "user": "TechGuru007",
+            "rating": 5,
+            "comment": "Best iPhone ever made! Love the camera improvements."
+          },
+          {
+            "user": "MobileUser23",
+            "rating": 4,
+            "comment": "Great phone, but a bit pricey."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "PlayStation 5 Console",
+        "type": "Video Games",
+        "brand": "Sony",
+        "price": 499.99,
+        "rating": 4.7,
+        "image": "https://example.com/ps5-console.jpg",
+        "description": "Experience lightning-fast loading, ultra-high-speed SSD, and stunning 4K visuals with the PlayStation 5 Console. Immerse yourself in the world of gaming like never before.",
+        "reviews": [
+          {
+            "user": "GamerX",
+            "rating": 5,
+            "comment": "Absolutely amazing console! Graphics are stunning."
+          },
+          {
+            "user": "PlayStationFanatic",
+            "rating": 4,
+            "comment": "Great performance, but could use more exclusive titles."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "LG OLED65C1PUB 65-Inch 4K Smart OLED TV",
+        "type": "TVs",
+        "brand": "LG",
+        "price": 2099.99,
+        "rating": 4.9,
+        "image": "https://example.com/lg-oled-65-inch-tv.jpg",
+        "description": "Bring home cinematic experience with the LG OLED65C1PUB 65-Inch 4K Smart OLED TV. Enjoy lifelike picture quality and immersive sound for an unparalleled viewing experience.",
+        "reviews": [
+          {
+            "user": "CinemaLover",
+            "rating": 5,
+            "comment": "Incredible TV! The colors are so vibrant."
+          },
+          {
+            "user": "TechSavvy23",
+            "rating": 5,
+            "comment": "Best OLED TV on the market."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Dyson V11 Torque Drive Cordless Vacuum Cleaner",
+        "type": "Appliances",
+        "brand": "Dyson",
+        "price": 599.99,
+        "rating": 4.7,
+        "image": "https://example.com/dyson-v11-vacuum.jpg",
+        "description": "Keep your home clean and dust-free with the Dyson V11 Torque Drive Cordless Vacuum Cleaner. Enjoy powerful suction and intelligent cleaning modes for effortless cleaning.",
+        "reviews": [
+          {
+            "user": "CleanFreak",
+            "rating": 5,
+            "comment": "This vacuum is a game-changer! Makes cleaning so much easier."
+          },
+          {
+            "user": "HouseProud123",
+            "rating": 4,
+            "comment": "Great vacuum, but a bit pricey."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Samsung Galaxy S22 Ultra",
+        "type": "Phones",
+        "brand": "Samsung",
+        "price": 1299.99,
+        "rating": 4.7,
+        "image": "https://example.com/samsung-galaxy-s22-ultra.jpg",
+        "description": "The Samsung Galaxy S22 Ultra is a powerful flagship smartphone with a stunning display, versatile camera system, and top-of-the-line performance.",
+        "reviews": [
+          {
+            "user": "JohnDoe123",
+            "rating": 5,
+            "comment": "Best smartphone I've ever owned!"
+          },
+          {
+            "user": "TechGeek99",
+            "rating": 4,
+            "comment": "Great camera quality, but battery life could be better."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Sony PlayStation 5 DualSense Wireless Controller",
+        "type": "Video Games",
+        "brand": "Sony",
+        "price": 69.99,
+        "rating": 4.8,
+        "image": "https://example.com/ps5-controller.jpg",
+        "description": "Enhance your gaming experience with the Sony PlayStation 5 DualSense Wireless Controller. Enjoy immersive haptic feedback and adaptive triggers for precise control.",
+        "reviews": [
+          {
+            "user": "GamerGirl88",
+            "rating": 5,
+            "comment": "Love the feel of this controller! Makes gaming more enjoyable."
+          },
+          {
+            "user": "ProGamer123",
+            "rating": 5,
+            "comment": "Responsive and comfortable to hold."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Sony 65-Inch 4K Ultra HD Smart LED TV",
+        "type": "TVs",
+        "brand": "Sony",
+        "price": 1499.99,
+        "rating": 4.5,
+        "image": "https://example.com/sony-65-inch-tv.jpg",
+        "description": "Immerse yourself in stunning visuals with the Sony 65-Inch 4K Ultra HD Smart LED TV. Enjoy lifelike picture quality and immersive sound for an incredible viewing experience.",
+        "reviews": [
+          {
+            "user": "MovieFanatic456",
+            "rating": 5,
+            "comment": "Great TV for movie nights!"
+          },
+          {
+            "user": "TechEnthusiast99",
+            "rating": 4,
+            "comment": "Good value for the features it offers."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Dell XPS 15 9510 Laptop",
+        "type": "Appliances",
+        "brand": "Dell",
+        "price": 1799.99,
+        "rating": 4.6,
+        "image": "https://example.com/dell-xps-15-laptop.jpg",
+        "description": "The Dell XPS 15 9510 Laptop offers powerful performance and stunning visuals with its 11th Gen Intel Core processor and InfinityEdge display. Perfect for work and entertainment.",
+        "reviews": [
+          {
+            "user": "BusinessProfessional",
+            "rating": 5,
+            "comment": "Great laptop for productivity tasks!"
+          },
+          {
+            "user": "TechNerd123",
+            "rating": 4,
+            "comment": "Sleek design and good performance."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Sony WH-1000XM4 Wireless Noise-Cancelling Headphones",
+        "type": "Appliances",
+        "brand": "Sony",
+        "price": 349.99,
+        "rating": 4.9,
+        "image": "https://example.com/sony-wh-1000xm4-headphones.jpg",
+        "description": "Enjoy immersive sound quality and noise cancellation with the Sony WH-1000XM4 Wireless Headphones. Perfect for music lovers and travelers.",
+        "reviews": [
+          {
+            "user": "MusicLover456",
+            "rating": 5,
+            "comment": "These headphones are a game-changer!"
+          },
+          {
+            "user": "Traveler007",
+            "rating": 5,
+            "comment": "Great for long flights. Noise cancellation works like a charm."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Nintendo Switch Console",
+        "type": "Video Games",
+        "brand": "Nintendo",
+        "price": 299.99,
+        "rating": 4.8,
+        "image": "https://example.com/nintendo-switch-console.jpg",
+        "description": "Experience gaming on the go with the Nintendo Switch Console. Play your favorite games anytime, anywhere, in handheld mode or connect to your TV for big-screen gaming.",
+        "reviews": [
+          {
+            "user": "NintendoFanatic",
+            "rating": 5,
+            "comment": "Love the versatility of this console!"
+          },
+          {
+            "user": "GamerGirl99",
+            "rating": 5,
+            "comment": "So much fun to play with friends."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "LG OLED77C1PUB 77-Inch 4K Smart OLED TV",
+        "type": "TVs",
+        "brand": "LG",
+        "price": 3999.99,
+        "rating": 4.8,
+        "image": "https://example.com/lg-oled-77-inch-tv.jpg",
+        "description": "Experience cinematic viewing at home with the LG OLED77C1PUB 77-Inch 4K Smart OLED TV. Enjoy stunning picture quality and immersive sound for an unparalleled entertainment experience.",
+        "reviews": [
+          {
+            "user": "MovieBuff456",
+            "rating": 5,
+            "comment": "Absolutely stunning TV! Worth every penny."
+          },
+          {
+            "user": "TechEnthusiast123",
+            "rating": 5,
+            "comment": "The best TV I've ever owned."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Google Pixel 6",
+        "type": "Phones",
+        "brand": "Google",
+        "price": 799.99,
+        "rating": 4.7,
+        "image": "https://example.com/google-pixel-6.jpg",
+        "description": "The Google Pixel 6 offers exceptional camera performance, smooth performance, and a sleek design. Experience the best of Google with this flagship smartphone.",
+        "reviews": [
+          {
+            "user": "PixelFanatic",
+            "rating": 5,
+            "comment": "Love the camera quality and clean Android experience."
+          },
+          {
+            "user": "TechGeek123",
+            "rating": 4,
+            "comment": "Great phone overall, but battery life could be better."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Xbox Series X Console",
+        "type": "Video Games",
+        "brand": "Microsoft",
+        "price": 499.99,
+        "rating": 4.9,
+        "image": "https://example.com/xbox-series-x-console.jpg",
+        "description": "Experience next-gen gaming with the Xbox Series X Console. Enjoy faster load times, higher frame rates, and immersive 4K gaming.",
+        "reviews": [
+          {
+            "user": "XboxFan123",
+            "rating": 5,
+            "comment": "Amazing console! Graphics are mind-blowing."
+          },
+          {
+            "user": "GamerPro456",
+            "rating": 5,
+            "comment": "Love the Xbox Game Pass subscription."
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Samsung 30-Inch 5.8 cu. ft. Gas Range with Self-Cleaning Oven",
+        "type": "Appliances",
+        "brand": "Samsung",
+        "price": 1099.99,
+        "rating": 4.6,
+        "image": "https://example.com/samsung-gas-range.jpg",
+        "description": "Cook with precision and convenience with the Samsung 30-Inch Gas Range. Features a spacious oven with self-cleaning function and powerful burners for versatile cooking.",
+        "reviews": [
+          {
+            "user": "HomeChef456",
+            "rating": 5,
+            "comment": "Absolutely love this gas range! Cooks evenly and looks stylish."
+          },
+          {
+            "user": "KitchenQueen99",
+            "rating": 4,
+            "comment": "Great addition to my kitchen. Easy to use and clean."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Sony WH-CH510 Wireless On-Ear Headphones",
+        "type": "Appliances",
+        "brand": "Sony",
+        "price": 59.99,
+        "rating": 4.4,
+        "image": "https://example.com/sony-wh-ch510-headphones.jpg",
+        "description": "Enjoy wireless freedom and clear sound with the Sony WH-CH510 Wireless On-Ear Headphones. Perfect for everyday listening and on-the-go use.",
+        "reviews": [
+          {
+            "user": "MusicLover789",
+            "rating": 4,
+            "comment": "Good sound quality for the price."
+          },
+          {
+            "user": "OnTheGo123",
+            "rating": 4,
+            "comment": "Lightweight and comfortable to wear."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Nintendo Switch Lite Console",
+        "type": "Video Games",
+        "brand": "Nintendo",
+        "price": 199.99,
+        "rating": 4.7,
+        "image": "https://example.com/nintendo-switch-lite-console.jpg",
+        "description": "Experience handheld gaming with the Nintendo Switch Lite Console. Enjoy a compact design and a library of great games to play on the go.",
+        "reviews": [
+          {
+            "user": "GamingEnthusiast123",
+            "rating": 5,
+            "comment": "Perfect for gaming on the move!"
+          },
+          {
+            "user": "TravelGamer456",
+            "rating": 4,
+            "comment": "Great for long trips. Wish it had TV connectivity though."
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "LG 27-Inch UltraGear QHD IPS Gaming Monitor",
+        "type": "Appliances",
+        "brand": "LG",
+        "price": 349.99,
+        "rating": 4.8,
+        "image": "https://example.com/lg-ultragear-gaming-monitor.jpg",
+        "description": "Get the competitive edge with the LG UltraGear Gaming Monitor. Features a high refresh rate and low input lag for smooth gaming performance.",
+        "reviews": [
+          {
+            "user": "GamerPro789",
+            "rating": 5,
+            "comment": "This monitor is a game-changer! So smooth and responsive."
+          },
+          {
+            "user": "CompetitiveGamer123",
+            "rating": 5,
+            "comment": "Love the picture quality and fast refresh rate."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Bose QuietComfort 45 Wireless Noise-Cancelling Headphones",
+        "type": "Appliances",
+        "brand": "Bose",
+        "price": 329.99,
+        "rating": 4.9,
+        "image": "https://example.com/bose-quietcomfort-45-headphones.jpg",
+        "description": "Escape into your music with the Bose QuietComfort 45 Wireless Headphones. Enjoy superior noise cancellation and immersive sound quality for a premium listening experience.",
+        "reviews": [
+          {
+            "user": "MusicEnthusiast456",
+            "rating": 5,
+            "comment": "Amazing headphones! Great for blocking out distractions."
+          },
+          {
+            "user": "Traveler567",
+            "rating": 5,
+            "comment": "Perfect for long flights. Comfortable and great sound quality."
+          }
+        ]
+      }
+    ]
+  }
+  
