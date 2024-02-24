@@ -1,1 +1,5 @@
-<app-item-card></app-item-card>
+<div class="items" *ngFor="let item of items$ | async">
+    <div>
+        <app-item-card [item]="item"></app-item-card>
+    </div>
+  </div>

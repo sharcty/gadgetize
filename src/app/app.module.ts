@@ -12,6 +12,7 @@ import { ItemModalComponent } from './item-modal/item-modal.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppRoutingModule,
     MatToolbarModule, 
     MatButtonModule, 
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [
     provideAnimationsAsync()

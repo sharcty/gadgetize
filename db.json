@@ -7,7 +7,7 @@
         "brand": "Samsung",
         "price": 1299.99,
         "rating": 4.6,
-        "image": "https://example.com/samsung-55-inch-tv.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience immersive visuals with the Samsung 55-inch 4K Ultra HD Smart QLED TV. Enjoy vibrant colors and stunning clarity for all your favorite movies, shows, and games.",
         "reviews": [
           {
@@ -29,7 +29,7 @@
         "brand": "Apple",
         "price": 2399.99,
         "rating": 4.9,
-        "image": "https://example.com/macbook-pro-16-inch.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "The MacBook Pro 16-inch delivers unparalleled performance with its powerful M1 Pro chip, stunning Retina display, and immersive audio system.",
         "reviews": [
           {
@@ -51,7 +51,7 @@
         "brand": "Apple",
         "price": 999.99,
         "rating": 4.8,
-        "image": "https://example.com/iphone-13-pro.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "The iPhone 13 Pro features a stunning Super Retina XDR display, advanced camera system, and all-day battery life. Experience the power of Apple's latest smartphone.",
         "reviews": [
           {
@@ -73,7 +73,7 @@
         "brand": "Sony",
         "price": 499.99,
         "rating": 4.7,
-        "image": "https://example.com/ps5-console.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience lightning-fast loading, ultra-high-speed SSD, and stunning 4K visuals with the PlayStation 5 Console. Immerse yourself in the world of gaming like never before.",
         "reviews": [
           {
@@ -95,7 +95,7 @@
         "brand": "LG",
         "price": 2099.99,
         "rating": 4.9,
-        "image": "https://example.com/lg-oled-65-inch-tv.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Bring home cinematic experience with the LG OLED65C1PUB 65-Inch 4K Smart OLED TV. Enjoy lifelike picture quality and immersive sound for an unparalleled viewing experience.",
         "reviews": [
           {
@@ -117,7 +117,7 @@
         "brand": "Dyson",
         "price": 599.99,
         "rating": 4.7,
-        "image": "https://example.com/dyson-v11-vacuum.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Keep your home clean and dust-free with the Dyson V11 Torque Drive Cordless Vacuum Cleaner. Enjoy powerful suction and intelligent cleaning modes for effortless cleaning.",
         "reviews": [
           {
@@ -139,7 +139,7 @@
         "brand": "Samsung",
         "price": 1299.99,
         "rating": 4.7,
-        "image": "https://example.com/samsung-galaxy-s22-ultra.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "The Samsung Galaxy S22 Ultra is a powerful flagship smartphone with a stunning display, versatile camera system, and top-of-the-line performance.",
         "reviews": [
           {
@@ -161,7 +161,7 @@
         "brand": "Sony",
         "price": 69.99,
         "rating": 4.8,
-        "image": "https://example.com/ps5-controller.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Enhance your gaming experience with the Sony PlayStation 5 DualSense Wireless Controller. Enjoy immersive haptic feedback and adaptive triggers for precise control.",
         "reviews": [
           {
@@ -183,7 +183,7 @@
         "brand": "Sony",
         "price": 1499.99,
         "rating": 4.5,
-        "image": "https://example.com/sony-65-inch-tv.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Immerse yourself in stunning visuals with the Sony 65-Inch 4K Ultra HD Smart LED TV. Enjoy lifelike picture quality and immersive sound for an incredible viewing experience.",
         "reviews": [
           {
@@ -205,7 +205,7 @@
         "brand": "Dell",
         "price": 1799.99,
         "rating": 4.6,
-        "image": "https://example.com/dell-xps-15-laptop.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "The Dell XPS 15 9510 Laptop offers powerful performance and stunning visuals with its 11th Gen Intel Core processor and InfinityEdge display. Perfect for work and entertainment.",
         "reviews": [
           {
@@ -227,7 +227,7 @@
         "brand": "Sony",
         "price": 349.99,
         "rating": 4.9,
-        "image": "https://example.com/sony-wh-1000xm4-headphones.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Enjoy immersive sound quality and noise cancellation with the Sony WH-1000XM4 Wireless Headphones. Perfect for music lovers and travelers.",
         "reviews": [
           {
@@ -249,7 +249,7 @@
         "brand": "Nintendo",
         "price": 299.99,
         "rating": 4.8,
-        "image": "https://example.com/nintendo-switch-console.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience gaming on the go with the Nintendo Switch Console. Play your favorite games anytime, anywhere, in handheld mode or connect to your TV for big-screen gaming.",
         "reviews": [
           {
@@ -271,7 +271,7 @@
         "brand": "LG",
         "price": 3999.99,
         "rating": 4.8,
-        "image": "https://example.com/lg-oled-77-inch-tv.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience cinematic viewing at home with the LG OLED77C1PUB 77-Inch 4K Smart OLED TV. Enjoy stunning picture quality and immersive sound for an unparalleled entertainment experience.",
         "reviews": [
           {
@@ -293,7 +293,7 @@
         "brand": "Google",
         "price": 799.99,
         "rating": 4.7,
-        "image": "https://example.com/google-pixel-6.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "The Google Pixel 6 offers exceptional camera performance, smooth performance, and a sleek design. Experience the best of Google with this flagship smartphone.",
         "reviews": [
           {
@@ -315,7 +315,7 @@
         "brand": "Microsoft",
         "price": 499.99,
         "rating": 4.9,
-        "image": "https://example.com/xbox-series-x-console.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience next-gen gaming with the Xbox Series X Console. Enjoy faster load times, higher frame rates, and immersive 4K gaming.",
         "reviews": [
           {
@@ -337,7 +337,7 @@
         "brand": "Samsung",
         "price": 1099.99,
         "rating": 4.6,
-        "image": "https://example.com/samsung-gas-range.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Cook with precision and convenience with the Samsung 30-Inch Gas Range. Features a spacious oven with self-cleaning function and powerful burners for versatile cooking.",
         "reviews": [
           {
@@ -359,7 +359,7 @@
         "brand": "Sony",
         "price": 59.99,
         "rating": 4.4,
-        "image": "https://example.com/sony-wh-ch510-headphones.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Enjoy wireless freedom and clear sound with the Sony WH-CH510 Wireless On-Ear Headphones. Perfect for everyday listening and on-the-go use.",
         "reviews": [
           {
@@ -381,7 +381,7 @@
         "brand": "Nintendo",
         "price": 199.99,
         "rating": 4.7,
-        "image": "https://example.com/nintendo-switch-lite-console.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Experience handheld gaming with the Nintendo Switch Lite Console. Enjoy a compact design and a library of great games to play on the go.",
         "reviews": [
           {
@@ -403,7 +403,7 @@
         "brand": "LG",
         "price": 349.99,
         "rating": 4.8,
-        "image": "https://example.com/lg-ultragear-gaming-monitor.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Get the competitive edge with the LG UltraGear Gaming Monitor. Features a high refresh rate and low input lag for smooth gaming performance.",
         "reviews": [
           {
@@ -425,7 +425,7 @@
         "brand": "Bose",
         "price": 329.99,
         "rating": 4.9,
-        "image": "https://example.com/bose-quietcomfort-45-headphones.jpg",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?w=996&t=st=1708808986~exp=1708809586~hmac=d4b306fab3e043d8a1461ea2238c4de51c7617e81953d8e6723dabed73710b70",
         "description": "Escape into your music with the Bose QuietComfort 45 Wireless Headphones. Enjoy superior noise cancellation and immersive sound quality for a premium listening experience.",
         "reviews": [
           {
