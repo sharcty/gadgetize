@@ -1,5 +1,10 @@
-<div class="items" *ngFor="let item of items$ | async">
-    <div>
+<div class="items-wrapper">
+    <div class="card" *ngFor="let item of displayedItems">
         <app-item-card [item]="item"></app-item-card>
     </div>
-  </div>
+</div>
+<mat-paginator [length]="(items$ | async)?.length"
+[pageSize]="10"
+[pageSizeOptions]="[5, 10, 25, 100]"
+(page)="onPageChange($event)">
+</mat-paginator>

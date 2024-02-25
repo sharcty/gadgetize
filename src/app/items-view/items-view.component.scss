@@ -1,0 +1,11 @@
+.items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    columns: 3;
+}
+  
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px; 
+  }
