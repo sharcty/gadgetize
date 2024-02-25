@@ -2,10 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    columns: 3;
+    margin: 0 10% 0 10%;
+    align-items: center;
 }
   
 .card {
     width: calc(33.33% - 20px);
     margin-bottom: 20px; 
   }
+
+  

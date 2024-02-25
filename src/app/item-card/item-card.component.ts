@@ -10,10 +10,6 @@ export class ItemCardComponent {
   @Input()
   item!: Item;
 
-  ngOnInit(): void {
-    console.log('Item:', this.item);
-    console.log('Item Description:', this.item?.description);
-    console.log('Item Price:', this.item?.price);
-}
+  ngOnInit(): void {}
 
 }

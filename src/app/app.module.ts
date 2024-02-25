@@ -14,6 +14,18 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {
+  MatDialogTitle,
+  MatDialogContent,
+  MatDialogActions,
+} from '@angular/material/dialog';
+import { storeReducer } from './store/store.reducer';
+import { StoreModule } from '@ngrx/store';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -31,7 +43,13 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatButtonModule, 
     MatIconModule,
     MatCardModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatDialogTitle, 
+    MatDialogContent,
+    MatDialogActions,
+    MatInputModule,
+    MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatCheckboxModule,
+    StoreModule.forRoot({ store: storeReducer })
   ],
   providers: [
     provideAnimationsAsync()
