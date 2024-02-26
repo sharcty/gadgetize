@@ -5,31 +5,31 @@
         Filter
       </mat-panel-title>
     </mat-expansion-panel-header>
-  <section class="filter-section">
-    <form class="filter-form">
-      <mat-form-field class="type-select">
-        <mat-label>Choose type</mat-label>
-        <mat-select [formControl]="selectedType">
-          <mat-option *ngFor="let option of types" [value]="option.value">
-            {{ option.viewValue }}
-          </mat-option>
-        </mat-select>
-      </mat-form-field>
-      <mat-form-field class="search-input">
-        <input matInput placeholder="Search" [formControl]="searchString">
-      </mat-form-field>
-    </form>
-    <form [formGroup]="price" class="price-form">
-      <section class="price-section">
-        <h4>Select your price range:</h4>
-        <p><mat-checkbox formControlName="from0to100">Under $100</mat-checkbox></p>
-        <p><mat-checkbox formControlName="from100to200">$100 to $200</mat-checkbox></p>
-        <p><mat-checkbox formControlName="from200to500">$200 to $500</mat-checkbox></p>
-        <p><mat-checkbox formControlName="from500to1000">$500 to $1000</mat-checkbox></p>
-        <p><mat-checkbox formControlName="from1000">$1000 & Above</mat-checkbox></p>
-      </section>
-    </form>
-  </section>
+    <section class="filter-section">
+      <form class="filter-form">
+        <mat-form-field class="type-select">
+          <mat-label>Choose type</mat-label>
+          <mat-select [formControl]="selectedType">
+            <mat-option *ngFor="let option of types" [value]="option.value">
+              {{ option.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="search-input">
+          <input matInput placeholder="Search" [formControl]="searchString">
+        </mat-form-field>
+      </form>
+      <form [formGroup]="price" class="price-form">
+        <section class="price-section">
+          <h4>Select your price range:</h4>
+          <p><mat-checkbox formControlName="from0to100">Under $100</mat-checkbox></p>
+          <p><mat-checkbox formControlName="from100to200">$100 to $200</mat-checkbox></p>
+          <p><mat-checkbox formControlName="from200to500">$200 to $500</mat-checkbox></p>
+          <p><mat-checkbox formControlName="from500to1000">$500 to $1000</mat-checkbox></p>
+          <p><mat-checkbox formControlName="from1000">$1000 & Above</mat-checkbox></p>
+        </section>
+      </form>
+    </section>
   </mat-expansion-panel>
   <div class="items-wrapper">
     <div class="card" *ngFor="let item of displayedItems" (click)="openDialog(item)">
@@ -38,5 +38,5 @@
   </div>
 </div>
 <mat-paginator [length]="filteredItems.length" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]"
-(page)="onPageChange($event)">
+  (page)="onPageChange($event)">
 </mat-paginator>

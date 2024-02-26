@@ -1,7 +1,7 @@
 <div *ngFor="let item of items.store">
-<mat-card>
+  <mat-card>
     <mat-card-header>
-      <img mat-card-avatar src="{{item.image}}" >
+      <img mat-card-avatar src="{{item.image}}">
       <mat-card-title>
         {{item.name}}
       </mat-card-title>
@@ -16,7 +16,7 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="accent"(click)="delete(item)"> Delete</button>
+      <button mat-raised-button color="accent" (click)="delete(item)"> Delete</button>
     </mat-card-actions>
   </mat-card>
 </div>
@@ -26,4 +26,3 @@
 <ng-template #elseBlock>
   <h2>Total: {{total.toFixed(0)}}</h2>
 </ng-template>
-

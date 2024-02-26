@@ -16,9 +16,11 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.store.dispatch(getItems());
-    
-    this.store.select(state => state).subscribe(items => {
-      this.items = items;
-    });
+
+    this.store
+      .select((state) => state)
+      .subscribe((items) => {
+        this.items = items;
+      });
   }
 }

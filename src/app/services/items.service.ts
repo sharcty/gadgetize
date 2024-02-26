@@ -5,10 +5,10 @@ import { Item } from '../interfaces/interfaces';
 import { environment } from '../../environment/environment';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ItemsService {
-  private url = environment.API+"products";
+  private url = environment.API + 'products';
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
@@ -17,12 +17,10 @@ export class ItemsService {
   constructor(private http: HttpClient) {}
 
   getItems(): Observable<Item[]> {
-    return this.http
-      .get<Item[]>(`${this.url}`);
+    return this.http.get<Item[]>(`${this.url}`);
   }
 
   getItemById(id: string): Observable<Item[]> {
-    return this.http
-      .get<Item[]>(`${this.url}/${id}`);
+    return this.http.get<Item[]>(`${this.url}/${id}`);
   }
 }

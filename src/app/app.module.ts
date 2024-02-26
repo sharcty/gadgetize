@@ -9,11 +9,11 @@ import { ItemCardComponent } from './item-card/item-card.component';
 import { ItemsViewComponent } from './items-view/items-view.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { ItemModalComponent } from './item-modal/item-modal.component';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import {
   MatDialogTitle,
   MatDialogContent,
@@ -25,8 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import { MatExpansionModule} from '@angular/material/expansion';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -35,26 +35,29 @@ import { MatExpansionModule} from '@angular/material/expansion';
     CartComponent,
     ItemCardComponent,
     ItemsViewComponent,
-    ItemModalComponent
+    ItemModalComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule, 
-    MatButtonModule, 
+    MatToolbarModule,
+    MatButtonModule,
     MatIconModule,
     MatCardModule,
     MatPaginatorModule,
-    MatDialogTitle, 
+    MatDialogTitle,
     MatDialogContent,
     MatDialogActions,
     MatInputModule,
-    MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatCheckboxModule, MatExpansionModule,
-    StoreModule.forRoot({ store: storeReducer })
+    MatFormFieldModule,
+    MatSelectModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatCheckboxModule,
+    MatExpansionModule,
+    StoreModule.forRoot({ store: storeReducer }),
   ],
-  providers: [
-    provideAnimationsAsync()
-  ],
-  bootstrap: [AppComponent]
+  providers: [provideAnimationsAsync()],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

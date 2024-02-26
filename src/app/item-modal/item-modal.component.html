@@ -3,14 +3,12 @@
     <h2>Description: </h2>{{data.description}}
     <br>
     <h2>Reviews: </h2>
-    <div
-    *ngFor="let review of data.reviews">
-    <h3>{{review.user}}</h3>
-    <p>{{review.comment}}</p>
-    <p>Rating: {{review.rating}}</p>
-</div>
+    <div *ngFor="let review of data.reviews">
+        <h3>{{review.user}}</h3>
+        <p>{{review.comment}}</p>
+        <p>Rating: {{review.rating}}</p>
+    </div>
 </mat-dialog-content>
 <mat-dialog-actions>
     <button mat-raised-button color="accent" (click)="buyItem()">Buy</button>
 </mat-dialog-actions>
-
