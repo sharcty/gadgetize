@@ -14,7 +14,6 @@
   mat-expansion-panel{
     width: 20%;
     float: left;
-    border-right: 1px solid #666;
     margin-right: 20px;
   }
 
@@ -24,4 +23,13 @@
 
   mat-form-field{
     width: 100%;
+  }
+
+  mat-paginator{
+    margin-right: 20px;
+  }
+
+  .component-wrapper{
+    margin-top: 10px;
+    display: block;
   }

@@ -33,11 +33,11 @@ export class ItemsViewComponent implements OnInit, OnDestroy {
   displayedItems: Item[] = [];
   filteredItems: Item[] = [];
   price: FormGroup = this._formBuilder.group({
-    under100: false,
+    from0to100: false,
     from100to200: false,
     from200to500: false,
     from500to1000: false,
-    above1000: false
+    from1000: false
   });
 
   searchString: FormControl<any> = new FormControl('');
