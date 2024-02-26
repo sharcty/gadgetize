@@ -11,7 +11,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class CartComponent {
   items: any;
-  total: any;
+  total: number = 0;
 
   constructor(
     private store: Store<{ items: Item[] }>,

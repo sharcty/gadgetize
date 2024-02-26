@@ -1,14 +1,7 @@
-enum ItemType {
-  TVs = 'TVs',
-  Appliances = 'Appliances',
-  Phones = 'Phones',
-  VideoGames = 'Video Games',
-}
-
 export interface Item {
   id: number;
   name: string;
-  type: ItemType;
+  type: string;
   brand: string;
   price: number;
   rating: number;
