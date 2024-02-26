@@ -1,14 +1,14 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, throwError } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 import { Item } from '../interfaces/interfaces';
+import { environment } from '../../environment/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ItemsService {
-  private url = "http://localhost:3000/products";
+  private url = environment.API+"products";
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
