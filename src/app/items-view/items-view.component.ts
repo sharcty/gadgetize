@@ -31,6 +31,7 @@ export class ItemsViewComponent implements OnInit, OnDestroy {
   items$: Observable<Item[]> | undefined;
   allItems: Item[] = [];
   displayedItems: Item[] = [];
+  filteredItems: Item[] = [];
   price: FormGroup = this._formBuilder.group({
     under100: false,
     from100to200: false,
@@ -114,8 +115,8 @@ export class ItemsViewComponent implements OnInit, OnDestroy {
       );
     }
     
-    this.displayedItems = filteredItems;
-    this.paginator.length = filteredItems.length < 10 ? filteredItems.length : 10;
+    this.filteredItems = filteredItems;
+    this.displayedItems = filteredItems.slice(0, this.paginator? this.paginator.pageSize : 10 ); ;
     this.paginator.firstPage();
   }
 
@@ -126,11 +127,9 @@ export class ItemsViewComponent implements OnInit, OnDestroy {
   }
 
   onPageChange(event: { pageIndex: number; pageSize: number; }): void {
-    if (this.paginator) {
-      this.paginator.pageIndex = event.pageIndex;
-      this.paginator.pageSize = event.pageSize;
-      this.filterItems();
-    }
+    const startIndex = event.pageIndex * event.pageSize;
+    const endIndex = startIndex + event.pageSize;
+    this.displayedItems = this.filteredItems.slice(startIndex, endIndex);
   }
 
   openDialog(item: Item): void {

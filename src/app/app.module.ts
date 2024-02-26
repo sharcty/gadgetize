@@ -26,6 +26,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatDialogContent,
     MatDialogActions,
     MatInputModule,
-    MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatCheckboxModule,
+    MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatCheckboxModule, MatExpansionModule,
     StoreModule.forRoot({ store: storeReducer })
   ],
   providers: [
