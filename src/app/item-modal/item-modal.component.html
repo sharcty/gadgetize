@@ -1,17 +1,16 @@
 <h2 mat-dialog-title>{{data.name}}</h2>
-<mat-dialog-content>
-    {{data.description}}
-    {{data.brand}}
-    {{data.price}}
-    {{data.rating}}
+<mat-dialog-content class="mat-typography">
+    <h2>Description: </h2>{{data.description}}
+    <br>
+    <h2>Reviews: </h2>
     <div
     *ngFor="let review of data.reviews">
-    {{review.user}}
-    {{review.rating}}
-    {{review.comment}}
+    <h3>{{review.user}}</h3>
+    <p>{{review.comment}}</p>
+    <p>Rating: {{review.rating}}</p>
 </div>
 </mat-dialog-content>
 <mat-dialog-actions>
-    <button mat-button (click)="buyItem()">Buy</button>
+    <button mat-raised-button color="accent" (click)="buyItem()">Buy</button>
 </mat-dialog-actions>
 
